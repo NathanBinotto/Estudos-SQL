@@ -1,0 +1,4 @@
+SELECT cidade,
+       COUNT(*) AS total_funcionarios
+FROM funcionarios
+GROUP BY cidade;
